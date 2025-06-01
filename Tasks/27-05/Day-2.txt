@@ -1,0 +1,5 @@
+Day-2
+	hide ip /access ban website
+	1) proxy (https://whatismyipaddress.com/,https://hide.me/en/proxy)
+	2) vpn
+	3) tor
